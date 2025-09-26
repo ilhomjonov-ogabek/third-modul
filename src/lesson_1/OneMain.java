@@ -1,4 +1,4 @@
-package one_lesson;
+package lesson_1;
 
 public class OneMain {
 
