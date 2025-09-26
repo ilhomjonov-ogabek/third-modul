@@ -1,4 +1,4 @@
-package twoo_lesson.homeworks.homework1;
+package lesson_2.homeworks.homework1;
 
 public class CompareTo {
 

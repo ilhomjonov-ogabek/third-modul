@@ -1,4 +1,4 @@
-package twoo_lesson.homeworks.homework3;
+package lesson_2.homeworks.homework3;
 
 import java.util.Arrays;
 
