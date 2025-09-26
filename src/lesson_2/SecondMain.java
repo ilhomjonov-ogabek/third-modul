@@ -1,4 +1,4 @@
-package twoo_lesson;
+package lesson_2;
 
 public class SecondMain {
 

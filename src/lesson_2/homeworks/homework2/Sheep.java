@@ -1,4 +1,4 @@
-package twoo_lesson.homeworks.homework2;
+package lesson_2.homeworks.homework2;
 
 public class Sheep extends Animal{
   public Sheep(String name, String color) {

@@ -116,18 +116,19 @@ public class SinglyLinkedList<E> {
     return false;
   }
 
-  public boolean set(int index, E element ) {
+  public void set(int index, E element ) {
     Objects.checkIndex(index, size);
     if ( index == 0 ) {
       head.element = element;
-      return true;
+
+    }else {
+      var current = head;
+      for (int i = 1; i <= index; i++) {
+        current = current.next;
+      }
+      current.element = element;
     }
-    var current = head;
-    for (int i = 0; i < index ; i++) {
-      current = current.next;
-    }
-    current.element = element;
-    return true;
+
   }
 
 
