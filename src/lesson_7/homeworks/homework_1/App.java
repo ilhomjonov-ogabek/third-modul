@@ -15,10 +15,9 @@ public class App {
 
     System.out.print("Enter price of car: ");
     int price = sc.nextInt();
-   MapTest.printCars(price);
   }
 
 
-  }
+
 
 }
